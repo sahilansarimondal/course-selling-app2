@@ -1,9 +1,9 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
-import TestimonialCards from "@/components/ui/TestimonialCards";
-import UpcomingWebiners from "@/components/ui/UpcomingWebiners";
-import WhyChooseUs from "@/components/ui/WhyChooseUs";
-import Image from "next/image";
+import Instructors from "@/components/Instructors";
+import TestimonialCards from "@/components/TestimonialCards";
+import UpcomingWebiners from "@/components/UpcomingWebiners";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       <WhyChooseUs />
       <TestimonialCards />
       <UpcomingWebiners />
+      <Instructors />
     </main>
   );
 }
